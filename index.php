@@ -13,9 +13,12 @@
     <body id="page-top">
         <?php
 
-            include_once 'assets/header.html';
+            include 'assets/header.html';
 
         ?>
+        
+        
+
         <!-- About-->
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
@@ -86,7 +89,7 @@
                             <div class="row">
                                 <div class="container text-center">
                                     <br>
-                                <a class="btn btn-primary" href="reserveer.html">Reserveer</a>
+                                <a class="btn btn-primary" href="reserveer.php">Reserveer</a>
                             </div>
                         </form>
                     </div>
