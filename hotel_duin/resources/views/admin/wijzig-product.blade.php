@@ -38,7 +38,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="kenteken" class="col-md-4 col-form-label text-md-end">{{ __('Kenteken: ') }}</label>
+                            <label for="Aantal" class="col-md-4 col-form-label text-md-end">{{ __('Aantal: ') }}</label>
 
                             <div class="col-md-6">
                                 <input type='text' placeholder="Kenteken" name='kenteken' value='{{$kamer->aantal}}' required autofocus/>

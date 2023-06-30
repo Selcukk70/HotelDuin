@@ -23,7 +23,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">Over ons</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Kamers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
                         <li class="nav-item">
                           @if (Auth::check())
                           <a class="nav-link" href="login">Welkom {{Auth::user()->name}}</a>

@@ -16,13 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 
 
+
 Route::get('/', [App\Http\Controllers\FrontPageController::class, 'index'])->name('home');
 
 Route::get('/kamers', [App\Http\Controllers\FrontPageController::class, 'checkrooms']);
 
 Route::get('/detail', [App\Http\Controllers\FrontPageController::class, 'detail']);
 
-//Route::post('/detail_car_page_order', [App\Http\Controllers\FrontPageController::class, 'store']);  //Reserve
+Route::get('/contact', [App\Http\Controllers\FrontPageController::class, 'contact']);
 
 Route::get('/login', function () {
     return view('/auth/login'); 

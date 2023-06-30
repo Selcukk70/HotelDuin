@@ -38,6 +38,11 @@ class FrontPageController extends Controller
         $data = Kamer::find($_GET['id']);
         return view('detail_room_page', compact('data'));
     }
+    
+    public function contact()
+    {
+        return view('contact');
+    }
 
     
 
